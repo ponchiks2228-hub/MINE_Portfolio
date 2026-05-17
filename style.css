@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(206, 206, 159), white, rgb(206, 206, 159));
+    color: black;
+}
+
+a {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 5px;
+    color: rgb(206, 206, 159);
+    text-transform:capitalize;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+h1 {
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+h1:hover {
+    color: rgb(206, 206, 159);
+    transform: scale(1.04);
+}
+
+li,p {
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+li,p:hover {
+    transform: translateX(8px);
+}
+
+.images {
+    border: rgb(153, 153, 121) double 10px;
+    padding: 5px;
+}
+
+.text-big {
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.text-big:hover {
+    color: rgb(206, 206, 159);
+    transform: scale(1.04);
+}
